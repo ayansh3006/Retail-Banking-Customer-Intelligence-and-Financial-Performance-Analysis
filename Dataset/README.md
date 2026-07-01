@@ -1,3 +1,5 @@
-# Dataset
+# 📊 Dataset
 
-This folder contains the original banking dataset and the cleaned dataset used for SQL analysis, Python EDA, and Power BI dashboard development.
+This folder contains the datasets used throughout the project for data preparation, SQL analysis, exploratory data analysis, and dashboard development.
+
+The data serves as the foundation for understanding customer demographics, financial behavior, and banking performance.
