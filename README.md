@@ -210,10 +210,9 @@ The dashboard provides an executive overview of customer financial performance.
 
 # 📈 Dashboard Preview
 
-> *(Insert your Power BI dashboard screenshot here)*
 
 ```
-PowerBI/Dashboard_Screenshot.png
+![Retail Banking Dashboard](Images/Dashboard%20Screenshot(Main).png)
 ```
 
 ---
