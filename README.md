@@ -1,258 +1,232 @@
 # 🏦 Retail Banking Customer Intelligence & Financial Performance Analysis
 
-> An end-to-end Data Analytics project that analyzes customer banking behavior using **PostgreSQL, Python, and Power BI** to generate actionable business insights and support data-driven decision-making.
+> An end-to-end Data Analytics portfolio project that analyzes retail banking customer behavior and financial performance using **PostgreSQL, Python, and Power BI** to generate actionable business insights.
 
 ---
 
 ## 📌 Project Overview
 
-The banking industry relies heavily on customer data to improve decision-making, enhance customer experience, and maximize profitability.
+This project demonstrates the complete data analytics workflow, starting from raw banking data and ending with an interactive business intelligence dashboard.
 
-This project analyzes a retail banking dataset to understand customer demographics, financial behavior, banking relationships, deposits, loans, and loyalty. The analysis combines SQL, Python, and Power BI to identify valuable customer segments and provide strategic business recommendations.
+Using SQL for business analysis, Python for exploratory data analysis (EDA), and Power BI for visualization, this project uncovers customer trends, banking relationships, income patterns, deposits, loans, and demographic insights to support data-driven decision-making.
 
 ---
 
-## 🎯 Business Problem
+## 🎯 Business Objective
 
-Banks manage thousands of customers with different financial profiles and banking behaviors.
-
-The objective of this project is to answer key business questions such as:
+The primary objective of this project is to analyze retail banking customer data and answer key business questions, including:
 
 - Who are the bank's most valuable customers?
-- Which occupations contribute the highest number of customers?
-- Which banking relationship generates the highest deposits?
-- How does customer income influence deposits?
-- Which customer segments should the bank target?
-
-The insights generated help management make data-driven business decisions.
+- Which customer segments contribute the highest deposits?
+- How do age, occupation, and nationality influence customer behavior?
+- Which banking relationships generate the highest financial value?
+- What business strategies can improve customer engagement and profitability?
 
 ---
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| PostgreSQL | Database Creation & SQL Analysis |
+| Technology | Purpose |
+|------------|---------|
+| PostgreSQL | Database Management & SQL Analysis |
 | Python | Data Cleaning & Exploratory Data Analysis |
 | Pandas | Data Manipulation |
-| NumPy | Numerical Analysis |
+| NumPy | Numerical Computing |
 | Matplotlib | Data Visualization |
 | Seaborn | Statistical Visualization |
-| Google Colab | Python Development |
-| Power BI | Interactive Dashboard |
-| Git & GitHub | Version Control & Portfolio |
+| Power BI | Interactive Dashboard & Business Intelligence |
+| Git & GitHub | Version Control & Project Portfolio |
 
 ---
 
-# 📂 Project Structure
+## 📊 Dashboard Preview
+---
+
+
+![Retail Banking Dashboard](PowerBI/Dashboard%20Screenshot(Main).png)
+
+
+---
+
+## 📂 Repository Structure
 
 ```
-Retail-Banking-Customer-Intelligence/
-
+```text
+Retail-Banking-Customer-Intelligence-and-Financial-Performance-Analysis
 │
-├── Problem_Statement.pdf
-│
-├── SQL/
-│   ├── Database_Creation.sql
-│   ├── Data_Import.sql
-│   └── Business_SQL_Queries.sql
-│
-├── Python_EDA/
-│   ├── Banking_EDA.ipynb
+├── 📁 Dataset
+│   ├── Banking.xlsx
 │   ├── clean_banking_data.csv
+│   └── README.md
 │
-├── PowerBI/
-│   ├── Retail_Banking_Dashboard.pbix
-│   └── Dashboard_Screenshot.png
+├── 📁 SQL File
+│   ├── Data_queries.sql
+│   └── README.md
 │
-├── Business_Report.pdf
+├── 📁 Python File
+│   ├── Banking_analysis.ipynb
+│   ├── Banking_analysis.ipynb - Colab.pdf
+│   └── README.md
 │
-└── README.md
+├── 📁 PowerBI
+│   ├── Retail Banking Customer Intelligence Dashboard.pbix
+│   ├── Dashboard Screenshot(Main).png
+│   └── README.md
+│
+├── 📁 Reports
+│   ├── Business Case Study (Problem Statement).pdf
+│   ├── Business_Report.docx
+│   ├── Business_Report.pdf
+│   └── README.md
+│
+├── 📁 Images
+│   ├── Dashboard Screenshot(Main).png
+│   ├── Dashboard Screenshot(1).png
+│   ├── Dashboard Screenshot(2).png
+│   ├── Dashboard Screenshot(3).png
+│   ├── Dashboard Screenshot(4).png
+│   └── README.md
+│
+├── 📄 README.md
+├── 📄 LICENSE
+└── 📄 .gitignore
 ```
+
 
 ---
 
-# 📊 Dataset Information
+## 📊 Dataset Overview
 
-The dataset contains customer banking information including:
+The project uses a retail banking dataset containing customer demographic and financial information, including:
 
 - Customer Demographics
 - Age
 - Gender
-- Nationality
 - Occupation
+- Nationality
 - Banking Relationship
 - Estimated Income
+- Bank Deposits
+- Bank Loans
 - Credit Card Balance
-- Loans
-- Deposits
-- Savings
 - Business Lending
 - Loyalty Classification
 
 ---
 
-# 🗄 Database Design
+## 🗄 SQL Analysis
 
-The project uses PostgreSQL for data storage and querying.
+Business-focused SQL queries were written using PostgreSQL to answer key analytical questions related to customer behavior and financial performance.
 
-The dataset consists of multiple related tables including:
+### Key Analysis
 
-- Banking Customers
-- Gender
-- Banking Relationship
-- Investment Advisor
-
-The tables were merged and analyzed using SQL queries.
-
----
-
-# 🔍 SQL Analysis
-
-The project answers important business questions using SQL.
-
-Examples include:
-
-- Total number of customers
-- Average customer income
-- Top occupations
-- Deposit analysis
-- Loan analysis
-- Customer segmentation
-- Banking relationship analysis
-- Nationality analysis
-- Loyalty analysis
-- Risk analysis
+- Customer Distribution
+- Deposit Analysis
+- Loan Analysis
+- Occupation Analysis
+- Banking Relationship Analysis
+- Nationality Analysis
+- Income Analysis
+- Customer Segmentation
 
 ---
 
-# 📈 Python Exploratory Data Analysis
+## 🐍 Python Exploratory Data Analysis
 
-Python was used for:
+Python was used for data cleaning, preprocessing, and exploratory analysis.
+
+### EDA Includes
 
 - Data Cleaning
 - Missing Value Analysis
-- Data Preparation
 - Feature Engineering
-- Exploratory Data Analysis
-
-### Visualizations include:
-
-- Customer Age Distribution
-- Gender Distribution
-- Top Occupations
-- Banking Relationship Analysis
-- Nationality Analysis
-- Deposit Analysis
-- Income Analysis
-- Customer Segmentation
-- Age Group Analysis
-- Income vs Deposit Comparison
+- Data Visualization
+- Statistical Analysis
+- Business Insight Generation
 
 ---
 
-# 📊 Power BI Dashboard
+## 📈 Power BI Dashboard
 
-The dashboard provides an executive overview of customer financial performance.
+The interactive dashboard provides an executive-level overview of customer financial performance.
 
 ### Dashboard Features
 
 - KPI Cards
-- Total Customers
-- Total Deposits
-- Total Loans
-- Average Income
-- Average Deposit
-- Average Loan
-
-### Interactive Visuals
-
-- Top Occupations
-- Banking Relationship Analysis
-- Customer Age Distribution
-- Gender Distribution
+- Customer Segmentation
+- Deposit Analysis
+- Loan Analysis
+- Occupation Analysis
 - Nationality Analysis
-- Income vs Deposit Comparison
-
-### Interactive Filters
-
-- Gender
-- Occupation
-- Banking Relationship
-- Nationality
-- Loyalty Classification
+- Age Distribution
+- Interactive Slicers
 
 ---
 
-# 📌 Key Business Insights
+## 💡 Key Business Insights
 
-- Working-age customers represent the largest customer segment.
-- Private banking customers contribute the highest deposits.
-- Income and deposits show a positive relationship.
-- A few occupations contribute a significant share of customers.
-- Customer loyalty varies across banking relationships.
-- Deposit distribution differs across nationalities.
-- High-income customers generally maintain larger deposits.
-- Customer demographics provide opportunities for personalized financial products.
+- Private Banking customers contribute the highest deposits.
+- Working-age customers form a significant portion of the customer base.
+- Customer income positively influences banking deposits.
+- A small number of occupations account for a large share of customers.
+- Banking relationships significantly impact customer financial value.
+- Customer demographics can be leveraged for targeted financial products and personalized marketing.
 
 ---
 
-# 💡 Business Recommendations
+## 📈 Business Recommendations
 
 - Develop premium banking services for high-value customers.
-- Create occupation-specific financial products.
-- Improve customer retention through loyalty programs.
+- Introduce occupation-specific financial products.
+- Strengthen customer loyalty programs.
 - Expand wealth management services.
-- Promote investment products to high-income customers.
 - Personalize marketing campaigns using customer segmentation.
+- Promote investment products to high-income customers.
 
 ---
 
-# 📈 Dashboard Preview
+## 🚀 Skills Demonstrated
 
-
-```
-![Retail Banking Dashboard](Images/Dashboard%20Screenshot(Main).png)
-```
-
----
-
-# 🚀 Skills Demonstrated
-
-- SQL
 - PostgreSQL
+- SQL
 - Python
 - Pandas
 - NumPy
 - Data Cleaning
+- Exploratory Data Analysis (EDA)
 - Data Visualization
-- Exploratory Data Analysis
-- Business Analytics
 - Power BI
 - Dashboard Design
 - Business Intelligence
 - Data Storytelling
+- Business Analytics
+- Git & GitHub
 
 ---
 
-# 📚 Future Scope
+## 📚 Future Scope
 
-- Predict customer churn using Machine Learning.
-- Build customer lifetime value models.
-- Integrate real-time banking data.
-- Develop forecasting dashboards.
-- Deploy dashboards using Power BI Service.
+- Customer Churn Prediction
+- Customer Lifetime Value (CLV) Analysis
+- Loan Default Prediction
+- Real-Time Banking Dashboard
+- Machine Learning Integration
+- Power BI Service Deployment
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Ayansh Singh**
 
-B.Tech CSE (Data Science & AI)
+B.Tech – Computer Science & Engineering (Data Science & AI)
 
 Aspiring Data Analyst
 
+GitHub: https://github.com/ayansh3006
+
 ---
 
-## ⭐ If you found this project useful, consider giving it a star!
+## ⭐ Support
+
+If you found this project useful or informative, consider giving it a ⭐ on GitHub.
